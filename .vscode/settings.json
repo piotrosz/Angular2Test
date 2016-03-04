@@ -1,4 +1,10 @@
 // Place your settings in this file to overwrite default and user settings.
 {
-    "http.proxy": "http://172.20.200.5:3128"
+    "http.proxy": "http://172.20.200.5:3128",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/*.js": true,
+        "**/*.js.map": true
+    }
 }
